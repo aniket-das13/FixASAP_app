@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64739907541",
+    "project_id": "fix-asp",
+    "storage_bucket": "fix-asp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64739907541:android:68abc9d505bb12d54f4f5c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64739907541-ettlpcpk5jusqaej6h5dqcflqqv7hfpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_b-OZdGD3X-1mqP3kpYdoFGMGZXB4gmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64739907541-ettlpcpk5jusqaej6h5dqcflqqv7hfpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+
+        android:layout_width="356dp"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/resname"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:editable="false"
+            android:hint="Full name"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/resemail"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:editable="false"
+
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/respin"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/resphno"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:editable="false"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/rescost"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+            android:editable="false"
+            android:hint="Base fee"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/resduration"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:editable="false"
+            android:hint="Minimum Duration in hrs"
+            android:inputType="time"
+            android:textSize="14sp" />
+
+
+        <TextView
+
+            android:id="@+id/resdeltype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/ic_local_grocery_store_black_24dp"
+            android:editable="false"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:hint="Delivery Type"
+            android:inputType="text"
+            android:paddingLeft="8dp"
+            android:paddingTop="14dp"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:id="@+id/resexptype"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:editable="false"
+            android:fontFamily="sans-serif"
+            android:hint="Your expertise"
+            android:inputType="text"
+            android:paddingTop="14dp"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

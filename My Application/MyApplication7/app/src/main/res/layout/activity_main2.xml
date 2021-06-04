@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="14dp"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="42dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:gravity="center"
+            android:text="Welcome to FIXasap"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="361dp"
+            android:layout_height="89dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-18dp"
+            android:gravity="center"
+            android:text="Enter your details to become a Partner.\nYour details will be shared with \ninterested customers"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_bwave" />
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/regname"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:hint="Full name"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regemail"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="Email"
+
+            android:inputType="textEmailAddress"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regpin"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
+            android:ems="10"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regphno"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regcost"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+            android:hint="Base fee"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regduration"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:hint="Minimum Duration in hrs"
+            android:inputType="time"
+            android:textSize="14sp" />
+
+
+        <RadioGroup
+            android:layout_width="417dp"
+            android:layout_height="84dp">
+
+            <RadioButton
+                android:id="@+id/Home"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="10dp"
+                android:text="Home Delivery"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/Self"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:text="Self Collect"
+                android:textSize="14sp" />
+
+            <TextView
+
+                android:id="@+id/regdeltype"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="-70dp"
+                android:drawableLeft="@drawable/ic_local_grocery_store_black_24dp"
+                android:fontFamily="sans-serif"
+                android:hint="Delivery Type"
+                android:inputType="text"
+                android:paddingTop="14dp"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="418dp"
+            android:layout_height="123dp">
+
+            <RadioButton
+                android:id="@+id/reglpc"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="10dp"
+                android:text="Laptops and PCs"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/regmpa"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:text="Mobile phone and accessories"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/regha"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:text="Home Appliances"
+                android:textSize="12sp" />
+
+            <TextView
+
+                android:id="@+id/regexptype"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="-70dp"
+                android:drawableLeft="@android:drawable/btn_star_big_on"
+                android:fontFamily="sans-serif"
+                android:hint="Your expertise"
+                android:inputType="text"
+                android:paddingTop="18dp"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/buttonstylepink"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:text="REGISTER "
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
